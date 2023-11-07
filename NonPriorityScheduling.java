@@ -123,3 +123,42 @@ class NonPriorityScheduling {
 
   }
 }
+
+
+
+/*
+*** Priority Scheduling (Non Preemptive) ***
+Enter Number of Process: 5
+
+Enter Arrival Time for processor 1:0
+Enter Burst Time for processor 1 : 11
+Enter Priority for 1 process: 2
+
+Enter Arrival Time for processor 2:2
+Enter Burst Time for processor 2 : 10
+Enter Priority for 2 process: 3
+
+Enter Arrival Time for processor 3:5
+Enter Burst Time for processor 3 : 28
+Enter Priority for 3 process: 4
+
+Enter Arrival Time for processor 4:9
+Enter Burst Time for processor 4 : 16
+Enter Priority for 4 process: 5
+
+Enter Arrival Time for processor 5:12
+Enter Burst Time for processor 5 : 2
+Enter Priority for 5 process: 6
+
+*** Priority Scheduling (Non Preemptive) ***
+Processor       Arrival time    Brust time      Completion Time         Turn around time        Waiting time
+----------------------------------------------------------------------------------------------------------
+P1              0ms             11ms            11ms                    11ms                    0ms
+P2              2ms             10ms            21ms                    19ms                    9ms
+P3              5ms             28ms            49ms                    44ms                    16ms
+P4              9ms             16ms            65ms                    56ms                    40ms
+P5              12ms            2ms             67ms                    55ms                    53ms
+
+Average Wating Time: 23.6
+Average Turn Around Time: 37.0
+*/
